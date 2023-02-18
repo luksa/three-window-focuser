@@ -1,0 +1,10 @@
+{
+    "name": "Three Window Focuser",
+    "description": "Allows you to move the left or right window to the center and focus it, while moving the previously focused window to the side.",
+    "uuid": "three-window-focuser@luksa.github.com",
+    "gettext-domain": "three-window-focuser@luksa.github.com",
+    "shell-version": ["42", "43"],
+    "url": "https://github.com/luksa/three-window-focuser",
+    "version": 1,
+    "settings-schema": "org.gnome.shell.extensions.three-window-focuser"
+}

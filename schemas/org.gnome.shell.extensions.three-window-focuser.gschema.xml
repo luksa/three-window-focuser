@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.three-window-focuser" path="/org/gnome/shell/extensions/three-window-focuser/">
+        <key name="focus-left-window" type="as">
+            <default><![CDATA[['<Alt>Delete']]]></default>
+            <summary>Keybinding for focusing the left window</summary>
+            <description>Keybinding to focus the left window without moving it to the center</description>
+        </key>
+        <key name="focus-right-window" type="as">
+            <default><![CDATA[['<Alt>Page_Down']]]></default>
+            <summary>Keybinding for focusing the right window</summary>
+            <description>Keybinding to focus the right window without moving it to the center</description>
+        </key>
+        <key name="focus-center-window" type="as">
+            <default><![CDATA[['<Alt>End']]]></default>
+            <summary>Keybinding for focusing the center window</summary>
+            <description>Keybinding to focus the center window</description>
+        </key>
+
+        <key name="center-left-window" type="as">
+            <default><![CDATA[['<Alt><Super>Delete']]]></default>
+            <summary>Keybinding for centering the left window</summary>
+            <description>Keybinding to move the left window to the center and focus it</description>
+        </key>
+        <key name="center-right-window" type="as">
+            <default><![CDATA[['<Alt><Super>Page_Down']]]></default>
+            <summary>Keybinding for centering the right window</summary>
+            <description>Keybinding to move the right window to the center and focus it</description>
+        </key>
+    </schema>
+</schemalist>
